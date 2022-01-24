@@ -1,9 +1,7 @@
-import axios from "axios";
 import React, {useState} from "react";
 import MealList from "../../components/MealList/MealList"
 import '../DailyMealPlan/DailyMealPlan.css'
 
-// https://api.spoonacular.com/mealplanner/generate?apiKey=f995a8655de7450aae3a81891ae613ed&timeFrame=day&targetCalories=${calories}
 function DailyMealPlan() {
 
     const [mealData, setMealData] = useState(null);

@@ -1,14 +1,7 @@
 import axios from 'axios'
 import React, { useState, useContext, useEffect, createContext } from 'react'
 import { useCallback } from 'react'
-import SingleRecipe from './components/SingleRecipe/SingleRecipe'
 
-
-// const apiKey: `${process.env.REACT_APP_API_KEY}`
-// const url = 'https://api.spoonacular.com/recipes/complexSearch?'
-console.log(process.env)
-// const url = 'https://api.spoonacular.com/recipes/complexSearch?&apiKey='
-// const api_key = process.env.REACT_APP_API_KEY
 const AppContext = createContext()
 
 const AppProvider = ({ children }) => {

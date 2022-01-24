@@ -1,5 +1,5 @@
 import React from 'react'
-import RecipeList from '../../components/RecipeList/RecipeListPractice'
+import RecipeList from '../../components/RecipeList/RecipeList'
 import SearchForm from '../../components/SearchForm/SearchForm'
 import '../SearchRecipe/SearchRecipe.css'
 
