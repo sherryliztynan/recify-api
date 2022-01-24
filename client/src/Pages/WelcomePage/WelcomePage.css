@@ -1,0 +1,81 @@
+/* 
+====== 
+Variables 
+======
+*/
+:root {
+    --primaryLightColor: #d4e6a5;
+    --primaryColor: #476a2e;
+    --primaryDarkColor: #c02c03;
+    --mainWhite: #fff;
+    --offWhite: #f7f7f7;
+    --mainBackground: #f1f5f8;
+    --mainOverlay: rgba(35, 10, 36, 0.4);
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --darkGrey: #afafaf;
+    --mainRed: #bd0303;
+    --mainTransition: all 0.3s linear;
+    --mainSpacing: 0.3rem;
+    --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    --mainBorderRadius: 0.25rem;
+    --smallWidth: 85vw;
+    --maxWidth: 40rem;
+    --fullWidth: 1170px;
+  }
+  /* 
+  ====== 
+  Global Styles 
+  ======
+  */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  h1 {
+    text-align: center;
+    font-family: var(--slantedFont);
+    margin-bottom: 1.25rem;
+    letter-spacing: var(--mainSpacing);
+  }
+  h2 {
+    text-align: center;
+    font-family: var(--slantedFont);
+    margin-bottom: 1.25rem;
+    letter-spacing: var(--mainSpacing);
+  }
+
+  .Nav_link {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 33%;
+  }
+  
+  .Nav_link:link {
+    text-align: center;
+    color: black;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-decoration: none;
+  }
+  .Nav_link:visited {
+    text-align: center;
+    color: black;
+  }
+  .Nav_link:hover {
+    text-align: center;
+    color:#476a2e;
+  }
+  .Nav_link:active {
+    text-align: center;
+    color: teal;
+  }
