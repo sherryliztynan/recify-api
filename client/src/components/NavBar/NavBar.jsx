@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '/Users/sherron/CodingHomework/meal-planning/client/src/RecifyLogo.png'
+import logo from '/Users/sherron/CodingHomework/recify-api/client/src/RecifyLogo.png'
 import './NavBar.css'
 
 const Navbar = () => {
